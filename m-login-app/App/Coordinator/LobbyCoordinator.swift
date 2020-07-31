@@ -35,7 +35,7 @@ class LobbyCoordinator: Coordinator {
         window?.rootViewController = viewController
 
         //DEV VALUE
-        startRegistration()
+//        startRegistration()
     }
 
 
@@ -52,12 +52,12 @@ extension LobbyCoordinator: LobbyViewControllerDelegate {
         rootViewController.show(viewController, sender: viewController)
 
         //DEV PURPOSE - REMOVE AT THE END OF ONBOARDING
-//        viewModel.creationStep = .legal
+//        viewModel.creationStep = .email
 //        proceed(viewModel: viewModel)
     }
 
     func proceedToLogin() {
-        print("Bamm")
+        print("Login all day long!")
     }
 
 

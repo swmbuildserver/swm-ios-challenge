@@ -56,9 +56,6 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="buttonStyle" value="bordered"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="title" value="Registrieren"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="userDidTapRegistrationButton:" destination="OKC-eA-ubE" eventType="touchUpInside" id="JNh-yX-MxQ"/>
-                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -657,35 +654,15 @@
                                             <constraint firstAttribute="height" constant="20" id="rUO-kd-60F"/>
                                         </constraints>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1CX-9A-gIc">
-                                        <rect key="frame" x="346" y="418" width="44" height="20"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="task" translatesAutoresizingMaskIntoConstraints="NO" id="I7g-M6-QkX">
-                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="20" id="JAA-mC-g9E"/>
-                                                    <constraint firstAttribute="height" constant="20" id="gGb-aj-rt3"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="jXb-Re-OEh">
-                                                <rect key="frame" x="24" y="0.0" width="20" height="20"/>
-                                                <gestureRecognizers/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="20" id="GLE-UR-80p"/>
-                                                    <constraint firstAttribute="height" constant="20" id="hep-2i-ZBP"/>
-                                                </constraints>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="BLN-Hm-Y6g" appends="YES" id="wy0-nf-dlQ"/>
-                                        </connections>
-                                    </stackView>
+                                    <imageView clipsSubviews="YES" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="jXb-Re-OEh">
+                                        <rect key="frame" x="346" y="418" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="dk9-bg-DlK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="N2z-5k-yBN" secondAttribute="bottom" constant="44" id="0SG-m7-7fP"/>
-                                    <constraint firstItem="1CX-9A-gIc" firstAttribute="bottom" secondItem="dk9-bg-DlK" secondAttribute="bottom" id="1fl-VP-pxp"/>
                                     <constraint firstAttribute="trailing" secondItem="dk9-bg-DlK" secondAttribute="trailing" constant="24" id="2ha-27-g0Q"/>
                                     <constraint firstItem="Nqu-lm-eqm" firstAttribute="centerY" secondItem="gEz-qI-hRD" secondAttribute="centerY" id="9uX-Sv-pa2"/>
                                     <constraint firstItem="gEz-qI-hRD" firstAttribute="top" secondItem="dk9-bg-DlK" secondAttribute="bottom" constant="24" id="Ad5-uh-jNb"/>
@@ -697,7 +674,6 @@
                                     <constraint firstItem="WB3-pr-l4v" firstAttribute="leading" secondItem="gEz-qI-hRD" secondAttribute="leading" id="P5U-tE-RiP"/>
                                     <constraint firstItem="gEz-qI-hRD" firstAttribute="leading" secondItem="5iP-bt-4bW" secondAttribute="leading" constant="24" id="Q80-U7-k7i"/>
                                     <constraint firstItem="jg5-kR-HnK" firstAttribute="top" secondItem="Nqu-lm-eqm" secondAttribute="bottom" constant="2" id="QGo-Jn-Jfn"/>
-                                    <constraint firstItem="1CX-9A-gIc" firstAttribute="trailing" secondItem="dk9-bg-DlK" secondAttribute="trailing" id="QPm-s1-YKQ"/>
                                     <constraint firstItem="pcN-dq-fnO" firstAttribute="trailing" secondItem="dk9-bg-DlK" secondAttribute="trailing" id="T3O-t6-bHW"/>
                                     <constraint firstItem="pcN-dq-fnO" firstAttribute="top" secondItem="jg5-kR-HnK" secondAttribute="bottom" constant="2" id="TFR-H5-xdm"/>
                                     <constraint firstItem="dk9-bg-DlK" firstAttribute="leading" secondItem="5iP-bt-4bW" secondAttribute="leading" constant="24" id="Uud-Se-5vl"/>
@@ -737,18 +713,12 @@
                         <outlet property="inputField" destination="dk9-bg-DlK" id="nhi-Vf-MMQ"/>
                         <outlet property="lengthConditionCheckbox" destination="gEz-qI-hRD" id="f23-a7-vDY"/>
                         <outlet property="lengthConditionLabel" destination="Nqu-lm-eqm" id="ypb-5J-Tfs"/>
-                        <outlet property="passwordValidCheckbox" destination="I7g-M6-QkX" id="Lbg-v2-dFU"/>
                         <outlet property="proceedButton" destination="pnb-Yz-siP" id="1dm-lp-ykB"/>
                         <outlet property="progressBar" destination="SUM-J3-TJ8" id="fA5-qU-hI5"/>
                         <outlet property="showPasswordImageView" destination="jXb-Re-OEh" id="N8G-UG-Bue"/>
                         <segue destination="2fd-eo-T81" kind="show" identifier="showNextSegue" id="09t-ic-EaE"/>
                     </connections>
                 </viewController>
-                <tapGestureRecognizer id="BLN-Hm-Y6g">
-                    <connections>
-                        <action selector="userDidTapTogglePasswordVisbility:" destination="noq-mj-DEC" id="mFc-jE-Kgq"/>
-                    </connections>
-                </tapGestureRecognizer>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Py6-S4-5sh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2806" y="-183"/>

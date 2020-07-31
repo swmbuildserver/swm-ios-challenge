@@ -44,11 +44,11 @@ class AccountCreationEMailViewController: AccountCreationBaseViewController {
     private func bindViews() {
 
         viewModel.userInputValidator
-        .handleEvents(receiveOutput: { [weak self] isValid in
-            self?.inputField.isChecked = isValid
-        })
-        .assign(to: \.isActive, on: proceedButton)
-        .store(in: &subscriptions)
+            .handleEvents(receiveOutput: { [weak self] isValid in
+                self?.inputField.isChecked = isValid
+            })
+            .assign(to: \.isActive, on: proceedButton)
+            .store(in: &subscriptions)
     }
 
     @IBAction func userDidChangeEmailAddress(_ sender: FloatingLabelInput) {
@@ -68,7 +68,6 @@ class AccountCreationEMailViewController: AccountCreationBaseViewController {
                 receiveValue: { result in
                     print("Received value", result)
                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                        #warning("THIS WOULD CAUSE A RETAIN CYCLE -> IT WILL BE REFACTORE AS SOON AS THE REAL BACKEND IS USED HERE!")
                         self.removeOverlay()
                         if result {
                             super.userDidTapProceedButton(sender)
@@ -76,7 +75,7 @@ class AccountCreationEMailViewController: AccountCreationBaseViewController {
                             //TODO: show alternative Login Screen
                         }
                     }
-        })
+            })
     }
 
 }

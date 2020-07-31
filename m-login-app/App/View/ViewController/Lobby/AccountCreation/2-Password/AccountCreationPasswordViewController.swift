@@ -41,6 +41,7 @@ class AccountCreationPasswordViewController: AccountCreationBaseViewController {
         inputField.labelText = String.localized(key: "PasswordLabel")
         inputField.inputStyle = .password
         inputField.isChecked = false
+        inputField.textpaddingRight = 50
 
         lengthConditionLabel.text = String.localized(key: "PasswordConditionLength")
         complexityConditionLabel.text = String.localized(key: "PasswordConditionComplexity")
@@ -73,10 +74,6 @@ class AccountCreationPasswordViewController: AccountCreationBaseViewController {
         viewModel.longComplexityConditionValidator
         .assign(to: \.isHidden, on: complexityConditionLongCheckbox)
         .store(in: &subscriptions)
-    }
-
-    @IBAction func userDidTapTogglePasswordVisbility(_ sender: Any) {
-        print("toggle foggle")
     }
 
     @IBAction func userDidChangePassword(_ sender: FloatingLabelInput) {

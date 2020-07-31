@@ -23,6 +23,8 @@ class FloatingLabelInput: UITextField {
         return text ?? ""
     }
 
+    var textpaddingRight: CGFloat = 32.0
+
     var inputStyle: InputStyle = .text {
         didSet {
             switch inputStyle {
@@ -52,7 +54,9 @@ class FloatingLabelInput: UITextField {
     private var labelBottomConstraintConstraint = NSLayoutConstraint()
 
     // input spacing - for a proper icon placement, the right edge inset guarantees, that we do not have text below the image view
-    private let padding = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 32)
+    private lazy var padding = {
+        return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: textpaddingRight)
+    }()
 
     //Add icons inside a stack view, to make it easy to add leading or trailing second icons
     private let iconContainerView = UIStackView()

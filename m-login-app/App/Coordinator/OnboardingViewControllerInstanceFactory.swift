@@ -48,7 +48,7 @@ class OnboardingViewControllerInstanceFactory: AbstractOnboardingViewControllerI
     }
 
     func makeAccountCreationSalutationViewController(viewModel: AccountCreationViewModel) -> AccountCreationSalutationViewController {
-        let viewController = UIStoryboard.viewController("AccountCreationSalutationViewController", storyboard: "Lobby") as! AccountCreationSalutationViewController
+        let viewController = UIStoryboard.viewController("AccountCreationSalutationsViewController", storyboard: "Lobby") as! AccountCreationSalutationViewController
         viewController.accountCreationViewModel = viewModel
         viewController.viewModel = AccountCreationSalutationViewModel()
         return viewController
