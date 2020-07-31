@@ -1,0 +1,126 @@
+/* 
+  Localizable.strings
+  m-login-app
+
+  Created by Normann Joseph on 29.06.20.
+  Copyright © 2020 SWM Services GmbH. All rights reserved.
+*/
+
+//General
+"ButtonLogin" = "Login";
+"ButtonRegister" = "Registrieren";
+"ButtonProceed" = "Weiter";
+"ButtonSkip" = "Überspringen";
+"ButtonBack" = "Zurück";
+"DataInfo" = "Ihre Daten werden verschlüsselt übertragen.";
+
+"LegalURL" = "https://login.muenchen.de/agb.html";
+"PrivacyURL" = "https://login.muenchen.de/datenschutz.html";
+
+
+//Lobby Screen
+
+//Login
+
+//Registration
+"RegStep1" = "1/5";
+"RegStep1Title" = "Registrierung";
+"RegStep2" = "2/5";
+"RegStep2Title" = "Persönliche Daten";
+"RegStep3" = "3/5";
+"RegStep3Title" = "Kontaktdaten";
+"RegStep4" = "4/5";
+"RegStep4Title" = "AGB & Datenfreigabe";
+"RegStep4TitleAGBOnly" = "AGB";
+"RegStep5" = "5/5";
+"RegStep5Title" = "Freiwillige Einwilligungen";
+"EMailCardTitle" = "Mit welcher E-Mail-Adresse möchten Sie sich registrieren?";
+"EMailLabel" = "E-Mail-Adresse";
+"EMailAddressExists" = "Diese E-Mail-Adresse ist bereits registriert.";
+"PasswordLabel" = "Passwort";
+"ButtonForgotPassword" = "Passwort vergessen";
+"ButtonUseDifferentEMailAddress" = "Mit anderer E-Mail-Adresse registrieren.";
+"PasswordCardTitle" = "Geben Sie ein sicheres Passwort ein.";
+"PasswordConditionLength" = "Mindestens 8 Zeichen";
+"PasswordConditionComplexity" = "Mindestens 3 von 4 Zeichenarten (Groß-/Kleinbuchstaben, Ziffern und Sonderzeichen)";
+"PasswordConditionLongComplexity" = "Ab 12 Zeichen: 2 von 4 Zeichenarten";
+"SalutationCardTitle" = "Wie möchten Sie angesprochen werden?";
+"SalutationLabel" = "Anrede";
+"SalutationTitleLabel" = "Title (optional)";
+"Mr" = "Herr";
+"Mrs" = "Frau";
+"Diverse" = "-";
+"NameCardTitle" = "Nennen Sie uns Ihren vollen Namen.";
+"FirstNameLabel" = "Vorname";
+"LastNameLabel" = "Nachname";
+"DobCardTitle" = "Wann sind Sie geboren?";
+"DobLabel" = "Geburtsdatum";
+"PleaseChoose" = "Bitte wählen";
+"CountryCardTitle" = "In welchem Land leben Sie?";
+"CountryLabel" = "Land";
+"CityCardTitle" = "In welcher Stadt leben Sie?";
+"CityLabel" = "Ort";
+"ZIPLabel" = "PLZ";
+"AddressCardTitle" = "In welcher Straße wohnen Sie?";
+"StreetLabel" = "Straße";
+"NumberLabel" = "Hausnummer";
+"AdditionalAddressLabel" = "Adresszusatz (optional)";
+"MobileCardTitle" = "Möchten Sie uns Ihre Mobilnummer verraten?";
+"MobileLabel" = "Mobilnummer (optional)";
+"LegalCardTitle" = "Bestätigen Sie bitte unsere AGB";
+"LegalAGBNeedle" = "AGB";
+"AGBSwitchLabel" = "Ich akzeptiere die AGB für den M-Login der Stadtwerke München GmbH.";
+"DataAccessSwitchLabel" = "XY darf auf meine M-Login-Daten lesend zugreifen:";
+"ScopeDob" = "Geburtsdatum";
+"ScopeEMail" = "E-Mail-Adresse";
+"ScopeAddress" = "Adresse";
+"ScopeMobile" = "Mobilfunknummer";
+"ScopeSalutation" = "Anrede";
+"ScopeTitle" = "Titel";
+"ScopeFirstName" = "Vorname";
+"ScopeLastName" = "Nachname";
+"DataAccessTitle" = "Datenfreigabe";
+"Question1" = "Warum benötigt ein Service die Freigabe meiner M-Login-Daten?";
+"Answer1" = "Für bestimmte Leistungen bzw. Funktionen des Services sind Daten von Ihnen erforderlich. Sie haben die Möglichkeit bestimmte Daten im M-Login zentral zu hinterlegen und diese für einzelne Services freizugeben.";
+"Question2" = "Welche Daten können vom Service nach erteilter Freigabe gelesen werden?";
+"Answer2" = "Die Datenfreigabe betrifft ausschließlich Daten, die Sie in Ihrem M-Login-Profil hinterlegt haben. Die Freigabe bezieht sich nicht auf Daten, die auf Ihrem Endgerät gespeichert sind, z. B. Kontaktdaten im Adressbuch. Der Service kann nur auf die explizit in der Freigabe aufgezählten M-Login-Daten lesend zugreifen. Lesend bedeutet, dass Ihre M-Login-Daten vom Service lediglich gelesen, aber nicht verändert werden können.";
+"Question3" = "Was passiert, wenn ich die Freigabe meiner M-Login-Daten verweigere?";
+"Answer3" = "Wenn Sie dem Service keinen lesenden Zugriff auf Ihre M-Login-Daten gewähren, dann können Sie den Service nicht in Verbindung mit dem M-Login nutzen.";
+"OptinCardTitle" = "So ist noch mehr für Sie drin";
+"OptinSubline" = "Widerruf mit Wirkung für die Zukunft jederzeit möglich, siehe Datenschutz-Infos";
+"DatenschutzInfosNeedle" = "Datenschutz";
+"NewsletterSwitchTitle" = "Newsletter";
+"NewsletterSwitchText" = "Ich möchte, dass die Stadtwerke München GmbH mir den monatlichen Newsletter über neue Funktionen und teilnehmende Services des M-Login an die von mir angegebene E-Mail-Adresse sendet.";
+"AnalyticsSwitchTitle" = "Marktforschung";
+"AnalyticsSwitchText" = "Ich willige ein, dass die Stadtwerke München GmbH mich zu Marktforschungszwecken per E-Mail kontaktiert.";
+"OffersSwitchTitle" = "Maßgeschneiderte Angebote";
+"ProfilingNeedle" = "Profiling";
+"OptinNeedle" = "Einwilligung";
+"ServicesNeedle" = "Services";
+"PlaceholderUrlString" = "https://login.muenchen.de";
+"OffersSwitchText" = "(Datenschutzinfos zum Profiling)
+
+Bitte erstellen Sie maßgeschneiderte Angebote für mich. Zu diesem Zweck erteile ich meine Einwilligung in die Übermittlung von Daten aus den angeschlossenen Services, Zusammenführung der Daten mit Daten der Stadtwerke München GmbH, Ergänzung mit mikrogeografischen Daten und Auswertung der Daten durch die Stadtwerke München GmbH im hier beschriebenen Umfang.";
+"OffersSwitchAddendumText" = "Ich möchte diese maßgeschneiderten Angebote der angeschlossenen Services von Stadtwerke München GmbH per E-Mail erhalten.";
+"CompleteRegistrationButtonTitle" = "Registrierung abschließen";
+"UserConsentTitle" = "Einwilligung";
+"UserConsentTextBlock1" = "Meine Einwilligung in die Übermittlung von Daten aus den angeschlossenen Services, zur Zusammenführung der Daten mit Daten der Stadtwerke München GmbH, Ergänzung mit mikrogeografischen Daten und zur Auswertung der Daten durch die Stadtwerke München GmbH.";
+"UserConsentTextBlock2" = "Anguish ossuary casket passion respectable rhapsody subterraneous unwonted form. Parlor fateful antechamber, relic. Overwrought mad stalk unholy exalted supplication dismay weakened languid. Revenant fate; cadence nihility ridden ash dolorous blank shrouded guilt-ridden stately distress stalk, lethargy. Abandoned take the air subterraneous reverence wretch. Ivy-clad cadence tranquil cast stalk longing choler lunacy, asunder ill health pallid smothered accusing fervent malign broken? Breathless curiously engraven mausoleum. Black trepidation radiance lunacy blind. Oblivion funereal cold perturbation drawing prodigiously seraph personage endure utterance ebon take the air by dint of gloaming midnight ivy-clad. Beneficent storm clouds chains sought fog soul wearied fallen ruin give way to funereal unwonted alabaster have lost.";
+"VictoryHeadlineTop" = "Jetz hammas!";
+"VictoryHeadlineBottom" = "Sie haben sich registriert.";
+"VictoryText" = "Bitte bestätigen Sie Ihre Identität, indem Sie auf den Link klicken, den wir Ihnen per E-Mail geschickt haben.";
+"VictoryProceed" = "Passt scho!";
+"Welcome" = "Willkommen!";
+"WelcomeBack" = "Willkommen zurück!";
+"LoginFaceIdTitle" = "Bitte identifizieren Sie sich mit Ihrer Face ID.";
+"AlternativeLoginButton" = "Mit anderer Option einloggen";
+"LoginTitle" = "Bitte melden Sie sich mit Ihren Zugangsdaten an.";
+"NewUser" = "Neu hier?";
+"RegisterNowButton" = "Jetzt registrieren";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
+
+

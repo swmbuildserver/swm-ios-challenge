@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Qa-do-lVh"/>
+                        <viewControllerLayoutGuide type="bottom" id="QcI-pK-OTB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="muenchenDefault" translatesAutoresizingMaskIntoConstraints="NO" id="cLh-uc-DZO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swmLogo" translatesAutoresizingMaskIntoConstraints="NO" id="h5K-Gw-PBX">
+                                <rect key="frame" x="179.5" y="797" width="55" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="2IY-1U-R5r"/>
+                                    <constraint firstAttribute="width" constant="55" id="RjO-dU-6Vf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ein Angebot der" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJ3-Dq-4ZN">
+                                <rect key="frame" x="152" y="771" width="110" height="18"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Es gibt viele, aber in München nur noch einen: Willkommen beim M-Login!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oy-Dn-fW4">
+                                <rect key="frame" x="38" y="670" width="338" height="36"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mLoginLogo" translatesAutoresizingMaskIntoConstraints="NO" id="lL9-gM-ulI">
+                                <rect key="frame" x="113" y="503" width="188" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="SXh-1z-jiD"/>
+                                    <constraint firstAttribute="height" constant="50" id="z8w-I2-KKz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="h5K-Gw-PBX" secondAttribute="bottom" constant="81" id="0VD-mX-nzR"/>
+                            <constraint firstAttribute="trailing" secondItem="6oy-Dn-fW4" secondAttribute="trailing" constant="38" id="8cy-MQ-i8m"/>
+                            <constraint firstItem="6oy-Dn-fW4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="38" id="9db-4k-rqM"/>
+                            <constraint firstAttribute="bottom" secondItem="cLh-uc-DZO" secondAttribute="bottom" id="9sz-OP-RdX"/>
+                            <constraint firstItem="6oy-Dn-fW4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Eyb-pQ-sr0"/>
+                            <constraint firstItem="cLh-uc-DZO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JzO-I7-qex"/>
+                            <constraint firstItem="h5K-Gw-PBX" firstAttribute="top" secondItem="oJ3-Dq-4ZN" secondAttribute="bottom" constant="8" id="Rx4-gK-MZg"/>
+                            <constraint firstAttribute="trailing" secondItem="cLh-uc-DZO" secondAttribute="trailing" id="SLl-DE-pAu"/>
+                            <constraint firstItem="oJ3-Dq-4ZN" firstAttribute="top" secondItem="6oy-Dn-fW4" secondAttribute="bottom" constant="65" id="ae1-Lp-pz4"/>
+                            <constraint firstItem="lL9-gM-ulI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="enf-sZ-Jbn"/>
+                            <constraint firstItem="lL9-gM-ulI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="80" id="h3D-TZ-Btq"/>
+                            <constraint firstItem="cLh-uc-DZO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="idO-4K-FuS"/>
+                            <constraint firstItem="h5K-Gw-PBX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vQe-Xi-bEe"/>
+                            <constraint firstItem="oJ3-Dq-4ZN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vTS-pg-1Sr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mLoginLogo" width="188" height="50"/>
+        <image name="muenchenDefault" width="375" height="812"/>
+        <image name="swmLogo" width="56" height="18"/>
+    </resources>
+</document>
