@@ -63,7 +63,6 @@
 		348CE882243DC0980050A5F5 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348CE880243DC0980050A5F5 /* UserDefaultsService.swift */; };
 		3498CDA024AB794C00A06022 /* Movable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498CD9F24AB794C00A06022 /* Movable.swift */; };
 		3498CDA224AC54F700A06022 /* LightweightPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498CDA124AC54F700A06022 /* LightweightPersistable.swift */; };
-		3498CF6824A1DB9F003FE05B /* DELETE_THIS_FOLDER_B4_RELASE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498CF6724A1DB9F003FE05B /* DELETE_THIS_FOLDER_B4_RELASE.swift */; };
 		3498CF6B24A1DC65003FE05B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498CF6A24A1DC65003FE05B /* RoundedButton.swift */; };
 		3498CF6E24A218B3003FE05B /* LobbyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498CF6D24A218B3003FE05B /* LobbyNavigationController.swift */; };
 		3498CF7024A2191F003FE05B /* AccountCreationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3498CF6F24A2191F003FE05B /* AccountCreationViewModel.swift */; };
@@ -72,7 +71,6 @@
 		34ADA97124A26B7400973B52 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ADA97024A26B7400973B52 /* ProgressBarView.swift */; };
 		34E40F1F24A0C81F00C833C7 /* UIColor+MainPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E40F1E24A0C81F00C833C7 /* UIColor+MainPalette.swift */; };
 		34E40F2124A0C88C00C833C7 /* UIFont+TextStyleCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E40F2024A0C88C00C833C7 /* UIFont+TextStyleCatalog.swift */; };
-		34E40F2424A0CA7C00C833C7 /* CommunicationTESTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E40F2324A0CA7C00C833C7 /* CommunicationTESTViewController.swift */; };
 		34EB699E24C708900034EB1F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB699D24C708900034EB1F /* AppConstants.swift */; };
 		34EB69A024C71E310034EB1F /* AccountCreationEMailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB699F24C71E310034EB1F /* AccountCreationEMailViewModel.swift */; };
 		34EB69A224C968A20034EB1F /* AccountCreationPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB69A124C968A20034EB1F /* AccountCreationPasswordViewModel.swift */; };
@@ -156,7 +154,6 @@
 		348CE880243DC0980050A5F5 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		3498CD9F24AB794C00A06022 /* Movable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movable.swift; sourceTree = "<group>"; };
 		3498CDA124AC54F700A06022 /* LightweightPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightweightPersistable.swift; sourceTree = "<group>"; };
-		3498CF6724A1DB9F003FE05B /* DELETE_THIS_FOLDER_B4_RELASE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DELETE_THIS_FOLDER_B4_RELASE.swift; sourceTree = "<group>"; };
 		3498CF6A24A1DC65003FE05B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		3498CF6D24A218B3003FE05B /* LobbyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyNavigationController.swift; sourceTree = "<group>"; };
 		3498CF6F24A2191F003FE05B /* AccountCreationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationViewModel.swift; sourceTree = "<group>"; };
@@ -165,7 +162,6 @@
 		34ADA97024A26B7400973B52 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		34E40F1E24A0C81F00C833C7 /* UIColor+MainPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+MainPalette.swift"; sourceTree = "<group>"; };
 		34E40F2024A0C88C00C833C7 /* UIFont+TextStyleCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+TextStyleCatalog.swift"; sourceTree = "<group>"; };
-		34E40F2324A0CA7C00C833C7 /* CommunicationTESTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationTESTViewController.swift; sourceTree = "<group>"; };
 		34EB699D24C708900034EB1F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		34EB699F24C71E310034EB1F /* AccountCreationEMailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationEMailViewModel.swift; sourceTree = "<group>"; };
 		34EB69A124C968A20034EB1F /* AccountCreationPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationPasswordViewModel.swift; sourceTree = "<group>"; };
@@ -273,7 +269,6 @@
 		344BDC48243B5B5B00E4DC36 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				34E40F2224A0CA3D00C833C7 /* TESTS */,
 				3498CD9E24AB793300A06022 /* Protocols */,
 				344BDC67243C5EDD00E4DC36 /* Extensions */,
 				344BDC46243B5AB000E4DC36 /* Application */,
@@ -582,15 +577,6 @@
 			path = AccountCreation;
 			sourceTree = "<group>";
 		};
-		34E40F2224A0CA3D00C833C7 /* TESTS */ = {
-			isa = PBXGroup;
-			children = (
-				3498CF6724A1DB9F003FE05B /* DELETE_THIS_FOLDER_B4_RELASE.swift */,
-				34E40F2324A0CA7C00C833C7 /* CommunicationTESTViewController.swift */,
-			);
-			path = TESTS;
-			sourceTree = "<group>";
-		};
 		34EB69B924D184E60034EB1F /* DetailInfos */ = {
 			isa = PBXGroup;
 			children = (
@@ -713,7 +699,6 @@
 				34EB69AE24CAD5AD0034EB1F /* AccountCreationAddressViewModel.swift in Sources */,
 				3473598F24A626130002400C /* AccountCreationLegalViewController.swift in Sources */,
 				34EB69B824D05E2F0034EB1F /* OnboardingService.swift in Sources */,
-				3498CF6824A1DB9F003FE05B /* DELETE_THIS_FOLDER_B4_RELASE.swift in Sources */,
 				3465C4B224AB1810004D3AC6 /* FloatingLabelInput.swift in Sources */,
 				3412BC5924B5D8FF0021DC1B /* PasswordValidator.swift in Sources */,
 				34EB69BF24D186490034EB1F /* AccountCreationDetailInfoViewModel.swift in Sources */,
@@ -765,7 +750,6 @@
 				34EB69AC24CAD58E0034EB1F /* AccountCreationCityViewModel.swift in Sources */,
 				3473598924A625EF0002400C /* AccountCreationCityViewController.swift in Sources */,
 				34E40F1F24A0C81F00C833C7 /* UIColor+MainPalette.swift in Sources */,
-				34E40F2424A0CA7C00C833C7 /* CommunicationTESTViewController.swift in Sources */,
 				3430515E24ACA54100DC2067 /* AdaptiveImageView.swift in Sources */,
 				348CE879243DBB290050A5F5 /* LobbyViewController.swift in Sources */,
 				348CE87D243DBF0B0050A5F5 /* LobbyCoordinator.swift in Sources */,
